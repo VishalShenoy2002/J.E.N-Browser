@@ -15,7 +15,7 @@ class  Browser(QMainWindow):
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
-
+ 
 
         # Creating a Navigation Bar or Navbar
 
@@ -59,6 +59,7 @@ class  Browser(QMainWindow):
 
     def updateurl(self,url):
         self.search_bar.setText(url.toString())
+
 
 if __name__=="__main__":
     app=QApplication(sys.argv)
