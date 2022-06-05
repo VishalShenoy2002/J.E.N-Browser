@@ -1,9 +1,9 @@
 import os
 import sys
 
-os.system('cd {}'.format(sys.path[6]))
+os.system('cd {}'.format(sys.path[5]))
 
-for package in ['pip uninstall PyQt5','pip uninstall PyQtWebEngine']:
+for package in ['pip install PyQt5','pip install PyQtWebEngine']:
     os.system(package)
     print('Installation Done')
     
